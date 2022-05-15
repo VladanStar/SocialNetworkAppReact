@@ -11,13 +11,9 @@ function App() {
    <Route exact path="/" component={UserForm} />
    <React.Fragment>
      <div>
-       
+
      </div>
    </React.Fragment>
-
-   
- 
-   
    </Router>
   );
 }
