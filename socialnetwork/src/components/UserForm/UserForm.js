@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-materialize";
-import { authentication } from "../../../services/authService";
+import { authentication } from "../../services/authService";
 import { Login } from "./Login/Login";
 import { Register } from "./Register/Register";
 import style from "./UserForm.module.css";
 import { Loader } from "../Loader/Loader";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 const UserForm = () => {
   const [user, setUser] = useState({});
   const [isLog, setIsLog] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState(null);
-  let history = useHistory();
+  let history = useNavigate();
 
   const insertData = (event) => {
     setUser({ ...user, [event.target.name]: event.target.value });
