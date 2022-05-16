@@ -1,0 +1,83 @@
+.form {
+    user-select: none;
+    margin-top: 80px;
+    background-color: white;
+    padding: 0 40px 40px 40px;
+    border-radius: 5px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+    color: #444;
+}
+
+.right{
+    user-select: none;
+    padding-right: 8px;
+    padding-left: 5px;
+    font-size: large;
+    cursor: pointer;
+    color: gray;
+}
+
+.left{
+    user-select: none;
+    padding-left: 8px;
+    padding-right: 5px;
+    font-size: large;
+    cursor: pointer;
+    color: gray;
+}
+
+.activeR{
+    border-bottom: #26a69a 3px solid;
+    border-right: #26a69a 3px solid;
+    color: #26a69a;
+}
+
+.activeL{
+    border-bottom: #26a69a 3px solid;
+    border-left: #26a69a 3px solid;
+    color: #26a69a;
+}
+
+.margin {
+    margin-top: 25px !important;
+}
+
+.padding {
+    padding-top: 40px;
+}
+
+.font {
+    font-family: 'Changa', sans-serif;
+}
+
+.account{
+    font-weight: bold;
+}
+.red{
+    color:#f44336;
+}
+
+@media only screen and (max-width: 992px) {
+    .info {
+        margin-top: 30px;
+    }
+    .form {
+        margin-top: 0px !important;
+        margin-bottom: 20px;
+    }
+    .padding {
+        padding-top: 20px;
+        margin-top: 23px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .padding{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .padding{
+        font-size: 36px;
+    }
+}
