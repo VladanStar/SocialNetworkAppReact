@@ -1,0 +1,12 @@
+.iframe{
+    height: 269px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .iframe{
+        height: 160px;
+    }
+}

@@ -1,0 +1,48 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    color: black;
+    bottom: 13px;
+    right: 15px;
+    font-size: 25px;
+}
+
+.comment:hover {
+    color: rgb(245, 211, 98);
+    cursor: pointer;
+}
+
+.numb {
+    position: absolute;
+    left: 9px;
+    bottom: 6px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+}
+
+.postType {
+    position: absolute;
+    left: 15px;
+    bottom: 13px;
+}

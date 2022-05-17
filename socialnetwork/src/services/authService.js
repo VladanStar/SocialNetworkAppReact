@@ -1,6 +1,5 @@
-
-import {HEADERS} from "../shared/constans"
-import baseURL from "../shared/baseURL";
+import { HEADERS } from "../shared/constants";
+import { baseURL } from "../shared/baseURL";
 import { storageService } from './storageService';
 
 

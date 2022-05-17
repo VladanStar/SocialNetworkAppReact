@@ -1,0 +1,51 @@
+.user {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+}
+
+.img {
+    margin-right: 10px;
+}
+
+.radius {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.info>p {
+    margin: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.trash {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    font-size: 25px;
+}
+
+.trash:hover {
+    color: red;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 380px) {
+    .trash {
+        font-size: 20px;
+    }
+    .info{
+        font-size: 14px;
+    }
+    .radius {
+        width: 40px;
+        height: 40px;
+    }
+}

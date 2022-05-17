@@ -1,0 +1,114 @@
+.card {
+    margin: 150px auto 0;
+    background-color: #fff;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cardHeader {
+    position: relative;
+    height: 48px;
+}
+
+.profileImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    background-color: white;
+    object-fit: cover;
+}
+
+.cardBody {
+    padding: 10px 40px;
+}
+
+.fullName {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    margin-top: 80px;
+}
+
+.username {
+    font-size: 15px;
+    color: #777;
+    margin: 5px 0 0;
+}
+
+.prefix {
+    font-weight: 500;
+    margin: 10px 0 0;
+}
+
+.about {
+    line-height: 24px;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.cardFooter {
+    display: table;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+}
+
+.col {
+    display: table-cell;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 50%;
+}
+
+.count {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.vr {
+    border-right: 1px solid #e6e6e6;
+}
+
+@media screen and (max-width: 575px) {
+    .card {
+        width: 96%;
+        margin-top: 100px;
+    }
+    .cardBody {
+        padding: 10px 20px;
+    }
+    .col {
+        padding: 0 10px;
+    }
+    .count {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .profileImg {
+        width: 150px;
+        height: 150px;
+    }
+    .fullName {
+        margin-top: 30px;
+    }
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+}

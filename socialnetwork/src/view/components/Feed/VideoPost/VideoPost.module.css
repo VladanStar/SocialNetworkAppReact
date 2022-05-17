@@ -1,0 +1,121 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    width: 100%;
+    height: 450px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    color: #444;
+    bottom: 13px;
+    right: 15px;
+    font-size: 25px;
+}
+
+.comment:hover {
+    color: rgb(245, 211, 98);
+    cursor: pointer;
+}
+
+.numb {
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+    color: #444;
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+}
+
+.postType {
+    position: absolute;
+    left: 15px;
+    bottom: 13px;
+}
+
+@media only screen and (max-width: 380px) {
+    .postType{
+        font-size: 14px;
+    }
+    .comment{
+        font-size: 20px;
+        bottom: 15px;
+    }
+    .numb{
+        font-size: 12px;
+        left: 7px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .video {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .video {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .video {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .video {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .video {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .video {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .video {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .video {
+        height: 140px;
+    }
+}

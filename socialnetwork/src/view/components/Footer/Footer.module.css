@@ -1,0 +1,18 @@
+.name {
+    font-size: 20px !important;
+    width: 100%;
+    text-align: center !important;
+    color: white;
+}
+
+.footer {
+    position: relative !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    background-color: #38405F;
+    margin-top: 0px;
+}
+
+.display {
+    display: none !important;
+}
